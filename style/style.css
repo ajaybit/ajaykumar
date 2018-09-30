@@ -44,6 +44,7 @@ body{
     background-color: #24292e;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 .m-nav{
     max-width: 980px;
@@ -138,12 +139,39 @@ nav a:hover {
     margin:18px auto;
     height: 800px;
     background-color: greenyellow;
-}
-
-.content-card{
-    width: 300px;
-    height: 100px;
     
 }
 
+.content-box{
+    width: 303px;
+    height: 2000px;
+    background-color: #24292e;
+    padding: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+}
+
+.content-card{
+    width: 303px;
+    height: auto;
+    background-color: #198cff;
+    padding: 0px;
+    margin:0 auto;
+    display: inline-block;
+    position: block;  
+
+}
+
+
+
+
+
+
+
+
 /*Footer*/
+
