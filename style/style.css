@@ -16,6 +16,7 @@ body{
     padding: 0;
     margin: 0 auto;
     font-weight: bolder;
+	z-index:0;
     
 }
 
@@ -33,6 +34,7 @@ body{
 .menu-secondary a:hover {
     background-color: rgb(243, 243, 243);
     color: black;
+	border-bottom:2px solid orange;
     
 }
 
@@ -51,7 +53,30 @@ body{
     height: 48px;
     background-color: #24292e;
     margin: 0 auto;
+	position:relative;
+	z-index:1
 
+}
+.m-nav ul{
+	list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+
+.m-nav ul a{
+	float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.m-nav a:hover {
+    background-color: rgb(253, 253, 253);
+    color: rgb(36, 23, 23);
+    font-weight: bold;
 }
 .nav-logo{
     width: 48px;
@@ -60,50 +85,12 @@ body{
     padding: 0;
     margin: 0;
     display: inline;
+	
 }
 
 .nav-logo img{
     width:48px;
     height: 48px;
-}
-
-.nav-empty{
-    width: 43.5%;
-    height: 48px;
-    float: left;
-    background-color: #24292e;
-    display: inline;
-}
-
-.nav-menu{
-    width: 51.5%;
-    height: 48px;
-    background-color: #24292e;
-    display: inline;
-}
-
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0 auto;
-    font-weight: bolder;
-}
-
-
-nav a{
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-nav a:hover {
-    background-color: rgb(253, 253, 253);
-    color: rgb(36, 23, 23);
-    font-weight: bold;
 }
 
 .divide{
@@ -143,6 +130,7 @@ nav a:hover {
     /*grid-template-rows: repeat(10, 1fr);*/
     grid-gap: 10px;
 }
+
 
 .card-1, .card-2, .card-3, .card-4{
     padding: 0px;
@@ -184,33 +172,21 @@ nav a:hover {
     line-height: 2.3;
     text-align: center;
 }
-.card-links{
-    padding: 2px;
-    margin: 0;
-    width: 100%;
-    height: 48px;
-    border-bottom: 1px solid  rgb(231, 231, 231);
+
+.m-li{
+	width:100%;
 }
-.card-links a{
-    float: left;
+.m-li a{
+    color: black;
     display: block;
-    color: #414141;
-    text-align: left;
-    margin-left: 20px;
-    padding: 16px;
+    padding: 12px;
     text-decoration: none;
-    font-size: 18px;
-    width:100%;
+	border-bottom:1px solid rgb(245, 245, 245);	
 }
-
-.card-links a:hover{
-    color: black
-}
-.main-content div:hover{
-    //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.m-li a:hover {
+    background-color: #ccc;
 
 }
-
 
 
 
