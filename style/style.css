@@ -389,7 +389,7 @@ body{
     font-size: 13px;
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
     .footer .col {
       width: 50%;
     }
@@ -399,6 +399,10 @@ body{
     .footer .col ul li {
       font-size: 13px;
     }
+	.menu-secondary{
+    display:none;
+    
+	}
 }
 @media only screen and (max-width: 340px) {
   .footer .col {
