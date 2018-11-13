@@ -78,6 +78,9 @@ body{
     color: rgb(36, 23, 23);
     font-weight: bold;
 }
+.m-nav a:active {
+    border-bottom:2px solid white;
+}
 .nav-logo{
     width: 48px;
     height: 48px;
@@ -162,6 +165,28 @@ body{
   padding: 8px 12px;
   position: absolute;
   top: 0;
+}
+
+/*Slide Type*/
+
+.slidetype {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  right:0;
+}
+.slidetype a {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  text-decoration:underline;
+  font-weight:bold;
+}
+.slidetype a:hover {
+  background-color:white;
+  color:black;
 }
 
 /* The dots/bullets/indicators */
@@ -363,21 +388,16 @@ body{
 .clearfix {
   clear: both;
 }
+
+
 @media only screen and (min-width: 1280px) {
   .contain {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
   }
+  
 }
-@media only screen and (max-width: 1139px) {
-  .contain .social {
-    width: 1000px;
-    display: block;
-  }
-  .social h1 {
-    margin: 0px;
-  }
-}
+
 @media only screen and (max-width: 950px) {
   .footer .col {
     width: 33%;
@@ -389,6 +409,8 @@ body{
     font-size: 13px;
   }
 }
+
+
 @media only screen and (max-width: 650px) {
     .footer .col {
       width: 50%;
@@ -399,14 +421,11 @@ body{
     .footer .col ul li {
       font-size: 13px;
     }
-	.menu-secondary{
-    display:none;
-    
-	}
 }
 @media only screen and (max-width: 340px) {
   .footer .col {
     width: 100%;
   }
 }
+
 
