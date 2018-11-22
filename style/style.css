@@ -78,9 +78,6 @@ body{
     color: rgb(36, 23, 23);
     font-weight: bold;
 }
-.m-nav a:active {
-    border-bottom:2px solid white;
-}
 .nav-logo{
     width: 48px;
     height: 48px;
@@ -95,6 +92,8 @@ body{
     width:48px;
     height: 48px;
 }
+
+
 
 
 /*Main body banner*/
@@ -203,6 +202,7 @@ body{
 
 .active, .dot:hover {
   background-color: #717171;
+
 }
 
 /* Fading animation */
@@ -297,6 +297,9 @@ body{
 
 }
 
+.a300x600{
+    border: 1px solid black;
+}
 
 
 
