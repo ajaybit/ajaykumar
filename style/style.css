@@ -4,7 +4,7 @@ body{
 
 /* Secondary menu */
 .menu-secondary{
-    max-width: 650px;
+    max-width: 700px;
     height: 60px;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
@@ -247,7 +247,12 @@ body{
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
     border-radius: 3px;
 }
-
+/*Google add 970x90*/
+.top970x90{
+  width: 972px;
+  height: 92;
+  margin: 0 auto; 
+}
 /*Grid Cards*/
 
 .card-1{    
